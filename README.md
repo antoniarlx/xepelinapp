@@ -1,15 +1,21 @@
-# xepelinapp
+# Welcome to my Xepelin App
 
-To run, first install the virtual environment:
+### To run, first install the virtual environment doing the following in the command line:
 
-* python3 -m venv auth
-* source auth/bin/activate
+```
+python3 -m venv auth
+source auth/bin/activate
+```
 
-Then set these variables:
+### Then set these variables, running these:
 
-* export FLASK_APP=project
-* export FLASK_DEBUG=1
+```
+export FLASK_APP=project
+export FLASK_DEBUG=1
+```
 
-And run!
+### Finally, run:
 
-* flask run
+```
+flask run
+```
