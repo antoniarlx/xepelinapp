@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Hello {{ name }}, here you can edit Xepelin rates.
+</h1>
+<h2 class="subtitle" style="color:rgb(252, 191, 169);font-size:15px">
+  <i> Warning: </i> As soon as you edit a rate, an email will be sent to the owner.
+</h2>
+<iframe src="https://docs.google.com/spreadsheets/d/1RfCKPprclzlR2jkVQ39h6rmZxKOLhXvYgPfpOa-UBhE/edit?usp=sharing&amp;single=true&amp;widget=true&amp;headers=false" width = 60% height = 600></iframe>
+<br>
+<br>
+<h1 style="color:rgb(243, 160, 129);font-size:15px"><a href="https://docs.google.com/spreadsheets/d/1RfCKPprclzlR2jkVQ39h6rmZxKOLhXvYgPfpOa-UBhE/edit?usp=sharing"> <u>Go to Google Sheets here.</u></a></h1>
+
+{% endblock %}
+
